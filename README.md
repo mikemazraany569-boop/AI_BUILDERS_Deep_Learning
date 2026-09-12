@@ -100,3 +100,62 @@ The `Outcome` column represents the target variable:
 ```text
 0 → Non-diabetic
 1 → Diabetic
+
+#2.Project Workflow
+
+Pima Diabetes Dataset
+        ↓
+Exploratory Data Analysis
+        ↓
+Missing / Invalid Value Analysis
+        ↓
+Outlier Analysis
+        ↓
+Data Preprocessing
+        ↓
+Feature Scaling
+        ↓
+Train-Test Split
+        ↓
+Neural Network Construction
+        ↓
+Model Compilation
+        ↓
+Model Training
+        ↓
+Validation
+        ↓
+Learning Curves
+        ↓
+Test Evaluation
+        ↓
+Confusion Matrix
+        ↓
+Classification Metrics
+        ↓
+Final Analysis
+
+
+## 3. Short Reflection
+
+### Why did you choose this dataset?
+
+I chose the Pima Indians Diabetes Dataset because it provides a practical **binary classification problem** that can be solved using a neural network. It allowed me to apply deep learning concepts to structured medical data rather than image data, making the project different from the MNIST and Fashion-MNIST classification tasks.
+
+### What challenges did you face?
+
+One of the main challenges was dealing with **data quality issues**, particularly zero values in features such as Glucose, BloodPressure, SkinThickness, Insulin, and BMI. I also had to analyze the presence of outliers and determine how they could affect neural network training.
+
+Another challenge was finding a suitable neural network configuration and monitoring the training and validation curves to avoid overfitting.
+
+### What improvements did you try?
+
+I experimented with different aspects of the neural network, including the **model architecture, optimizer, and training process**. I also focused on proper feature scaling and monitored both training and validation performance to improve the model's generalization.
+
+Different evaluation metrics such as **precision, recall, and F1-score** were also considered instead of relying only on accuracy.
+
+### What did you learn?
+
+This project helped me understand how to apply a complete **deep learning workflow to tabular data**. I learned the importance of preprocessing, feature scaling, outlier analysis, neural network architecture, model optimization, and validation.
+
+I also learned that for medical classification problems, **accuracy alone is not always sufficient**. Metrics such as recall can be particularly important because false negative predictions may have significant consequences.
